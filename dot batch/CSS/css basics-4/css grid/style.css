@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: brown;
+    height: 500px;
+    border: 3px solid black;
+    display: grid;
+    
+    /* grid-template-columns: 200px 200px 210px;
+    grid-template-rows: 90px 90px 90px 90px;
+    fr wale flexible grids hain */
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 100px repeat(2,1fr) 200px;
+    grid-template-rows: repeat(4,1fr);
+
+    /* column or row ke bich mai gap chaiye tho */
+    gap:15px;
+
+
+}
+
+.box{
+    background-color: aqua;
+    border: 3px solid black;
+   
+    height: 80px;
+}
+
+#box1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}

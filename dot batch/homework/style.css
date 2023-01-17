@@ -1,0 +1,34 @@
+h1{
+    font-family: 'Poppins', sans-serif;
+}
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+  }
+
+  #blue{
+    color: lightseagreen;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+  }
+  #grey{
+    color: gray;
+    font-family: serif;
+  }
+
+  #off{
+    background-color: rgb(12, 161, 112);
+    color: white;
+    font-family: serif;
+    padding: 5px;
+    border-radius: 5px;
+    }
+  
+    hr{
+        margin-right: 5em;
+    }

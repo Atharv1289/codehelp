@@ -1,0 +1,13 @@
+h1{
+    text-shadow: 2px 2px grey;
+    text-shadow: 3px 3px 3px red ,30px 3px 2px yellow;
+}
+
+.box{
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    box-shadow: -10px -10px 15px red , 10px 10px 10px;
+    /* shadow mai first and second is horizontal and vertical and thrid wala blur hota hai */
+    color: grey;
+}
